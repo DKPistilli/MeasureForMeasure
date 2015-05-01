@@ -10,12 +10,6 @@ $( document ).ready(function() {
             $(this).animate({opacity: '1'});
         }
     );
-
-    $('#banner-fade').bjqs({
-        'height' : 320,
-        'width' : 620,
-        'responsive' : true
-    });
         
 
     ///////////
