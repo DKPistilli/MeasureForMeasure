@@ -19,14 +19,19 @@
     <!-- My script -->
     <script src="assets/scripts/script.js"></script>
 
+    <!-- super simple slider -->
+    <script src="assets/sss/sss.min.js"></script>
+    <link rel="stylesheet" href="assets/sss/sss.css" type="text/css" media="all">
+    <script> jQuery(function($) {$('.slider').sss();}); </script>
 
 </head>
 
-<body>
+<!-- sneaky!! the body id allows for the logo to be a slideup button to top of page -->
+<body id="top">
+
     <div id="menu"> <ul>
         <li><a href="#game">About the Game</a></li>
-        <!-- <li><a id="name" href="index.html">measure4measure</a></li> -->
-        <li><a id="name" href="index.html"><img id="logo" src="assets/images/m4m.png"/></a></li>
+        <li><a id="name" href="#top"><img id="logo" src="assets/images/m4m.png"/></a></li>
         <li><a href="#team">About the Team</a></li>
     </ul></div>
 
@@ -39,7 +44,7 @@
 
 
     <!-- game download link and anchor for the "about the game" -->
-    <h5><a name="game" href="m4m_build.zip" target="_blank"> Click Here To Download Game!</a> </h5>
+    <h3><a name="game" href="m4m_build.zip" target="_blank"> Click Here To Download Game!</a> </h3>
     <!-- anchor for "about the game" section. needed to be here to account for the menu bar taking up space -->
 
     <br><br>
@@ -47,6 +52,13 @@
     <p>...is a music-based endless runner that pits you against an army of rests. Hone your piano skills as you play your way through an unforgiving barrage of enemies that require a musician’s precision to survive!</p>
 
     <br>
+
+    <!-- pr images -->
+    <div class="slider">
+    <img height="300px" width="100px" src="assets/images/artoun.jpg" />
+    <img height="300px" width="100px" src="assets/images/artoun2.jpg" />
+    <img height="300px" width="100px" src="assets/images/artoun3.jpg" />
+    </div>
 
     <h1>Press Release</h1>
     <p>
