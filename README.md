@@ -13,10 +13,10 @@ Last Edited on 23 April 2015
 * Developed on the Unity3D engine
 * Main Development Project for the Comp150 Game Dev class at Tufts University
 
-#### Todo List
-* Remove all but scaffolding from the current site
-* Add the unity webapp executable
-* 
+#### Todo List 
+* Final Build of Game
+* New Screencaps for Site
+* New Trailer Link
 
 #### Known Bugs (in site)
 * 
